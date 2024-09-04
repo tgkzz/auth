@@ -1,0 +1,6 @@
+env: "local"
+storage_path: "********://********/********?sslmode=require"
+
+grpc:
+  port: 50051
+  timeout: 30s

@@ -1,0 +1,9 @@
+.idea/
+*.svg
+*.json
+vendor/
+*.zip
+bin/
+*.zip
+/bin
+.env
