@@ -26,7 +26,7 @@ func New(ctx context.Context, databaseUrl string) (*Storage, error) {
 		return nil, err
 	}
 
-	if err := conn.Ping(ctx); err != nil {
+	if err = conn.Ping(ctx); err != nil {
 		return nil, err
 	}
 
